@@ -1,0 +1,66 @@
+{
+  "accuracy": 0.8261877172653534,
+  "precision_macro": 0.6977718360071301,
+  "recall_macro": 0.706229168868843,
+  "macro_f1": 0.6995342515986817,
+  "weighted_f1": 0.8325329879706057,
+  "confusion_matrix": [
+    [
+      175,
+      13,
+      1,
+      1
+    ],
+    [
+      0,
+      16,
+      24,
+      1
+    ],
+    [
+      0,
+      25,
+      101,
+      39
+    ],
+    [
+      0,
+      2,
+      44,
+      421
+    ]
+  ],
+  "per_class": [
+    {
+      "class_name": "Healthy",
+      "precision": 1.0,
+      "recall": 0.9210526315789473,
+      "f1": 0.958904109589041,
+      "support": 190
+    },
+    {
+      "class_name": "DryRot-Mild",
+      "precision": 0.2857142857142857,
+      "recall": 0.3902439024390244,
+      "f1": 0.32989690721649484,
+      "support": 41
+    },
+    {
+      "class_name": "DryRot-Moderate",
+      "precision": 0.5941176470588235,
+      "recall": 0.6121212121212121,
+      "f1": 0.6029850746268657,
+      "support": 165
+    },
+    {
+      "class_name": "DryRot-Severe",
+      "precision": 0.9112554112554112,
+      "recall": 0.9014989293361885,
+      "f1": 0.906350914962325,
+      "support": 467
+    }
+  ],
+  "model": "vit_b_16",
+  "checkpoint_epoch": 9,
+  "checkpoint_validation_macro_f1": 0.7417675192742865
+}

@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "classes": [
+    "Healthy",
+    "DryRot-Mild",
+    "DryRot-Moderate",
+    "DryRot-Severe"
+  ],
+  "source_archive_sha256": "0d6ff2f249993a404d3b533b0247063e0f442e0c6267c24b23d7463645492662",
+  "files": {
+    "all.csv": "f00734c6ada08ea6f470cdf29116d9e5420ca8cdc352c6858c438acaa615180f",
+    "train.csv": "5d611c90b6e85d2aa0f00336f11d9ad27d8ff776880b658129b57404da880ce7",
+    "validation.csv": "cd4258f068cee03637112e33f67897a6c8483d1a4a2447d1a92e8130dfdf0b42",
+    "test.csv": "26645021eaf047bc8bbef6646c1f26cf96cff8fb2aacdb353b10a163cfec53aa",
+    "exclusions.csv": "1566eb4c713b86b166fa06238caff34c72a2e14027f71ffedefe44386c17f3f9",
+    "group_edges.csv": "2796ca5338040f750c4f92360eecc0aba208c40d4616568d19369b25b5478a78",
+    "perceptual_candidate_review.csv": "3c460578f55ed161cd1db9885c181cee9d8ea8e636b20be48b70d13973619ee1",
+    "preparation_summary.json": "7a400d8c91347f14e5e714e63ad175ba6d8709309d9d3162694566c7f9414870"
+  },
+  "group_identity": "inferred; not verified physical tuber identity"
+}

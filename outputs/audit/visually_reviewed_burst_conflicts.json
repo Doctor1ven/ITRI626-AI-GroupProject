@@ -1,0 +1,18 @@
+[
+  {
+    "capture_prefix": "IMG20251108123556",
+    "categories": [
+      "BARI_Alu_25_Asterix__DryRot_Mild",
+      "BARI_Alu_25_Asterix__DryRot_Moderate"
+    ],
+    "observation": "Same capture-second burst prefix and visually near-identical tuber view in two severity folders. Label conflict needs publisher/expert resolution."
+  },
+  {
+    "capture_prefix": "IMG20251108124413",
+    "categories": [
+      "BARI_Alu_25_Asterix__DryRot_Severe",
+      "BARI_Alu_25_Asterix__Fully_Rotten"
+    ],
+    "observation": "Same capture-second burst prefix and visually near-identical view across Severe and excluded Fully-Rotten. No files changed."
+  }
+]

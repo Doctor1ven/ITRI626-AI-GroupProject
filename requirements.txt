@@ -1,0 +1,10 @@
+# Core training/data pipeline. For CUDA, install the matching PyTorch wheel
+# from https://pytorch.org/get-started/locally/ before installing this file.
+torch==2.13.0
+torchvision==0.28.0
+numpy==2.5.2
+Pillow==12.3.0
+
+# Notebook and artifact regeneration tools
+nbformat==5.10.4
+ipython>=8.0

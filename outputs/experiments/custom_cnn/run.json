@@ -1,0 +1,65 @@
+{
+  "model": "custom_cnn",
+  "pretrained_weights": null,
+  "device": "cuda",
+  "python": "3.12.14",
+  "torch": "2.13.0+cu126",
+  "torchvision": "0.28.0+cu126",
+  "cuda": "12.6",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+  "batch_size": 8,
+  "train_counts": [
+    1425,
+    185,
+    789,
+    2307
+  ],
+  "class_weights": [
+    0.8256140350877192,
+    6.359459459459459,
+    1.491128010139417,
+    0.5099696575639359
+  ],
+  "config": {
+    "seed": 42,
+    "image_size": 224,
+    "batch_size": 8,
+    "num_workers": 4,
+    "head_epochs": 3,
+    "finetune_epochs": 20,
+    "patience": 5,
+    "head_lr": 0.001,
+    "cnn_lr": 0.0003,
+    "backbone_lr": 1e-05,
+    "weight_decay": 0.0001,
+    "use_amp": true,
+    "classes": [
+      "Healthy",
+      "DryRot-Mild",
+      "DryRot-Moderate",
+      "DryRot-Severe"
+    ],
+    "models": [
+      "custom_cnn",
+      "efficientnet_v2_s",
+      "vit_b_16"
+    ]
+  },
+  "epochs_run": 20,
+  "best_validation_macro_f1": 0.5818906940034642,
+  "runtime_seconds": 239.4201192855835,
+  "gpu_memory_bytes": 8170569728,
+  "nvidia_driver": "610.43.02",
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau(mode=max, factor=0.5, patience=2, min_lr=1e-7)",
+  "loss": "weighted CrossEntropyLoss; weights computed from training partition only",
+  "input_size": 224,
+  "preprocessing": "RGB; torchvision Resize(256), center crop 224 for validation/test, ImageNet normalization",
+  "training_augmentation": "RandomResizedCrop scale 0.82-1.0; horizontal/vertical flips; random rotation +/-10 degrees; training partition only",
+  "seed": 42,
+  "deterministic_algorithms": true,
+  "early_stopping": "validation Macro-F1 patience 5 during fine-tuning; maximum 20 fine-tuning epochs after 3 head-only epochs for pretrained models",
+  "weight_decay": 0.0001,
+  "mixed_precision": "CUDA automatic mixed precision enabled"
+}

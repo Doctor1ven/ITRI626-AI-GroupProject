@@ -1,0 +1,45 @@
+{
+  "original_primary_count": 6337,
+  "excluded_primary_images": 8,
+  "usable_images": 6329,
+  "inferred_groups": 614,
+  "largest_inferred_group": 856,
+  "verified_physical_tuber_count": "UNKNOWN",
+  "seed": 42,
+  "grouping": {
+    "anchor_window_seconds": 60,
+    "perceptual_time_seconds": 120,
+    "strict_phash_max": 4,
+    "strict_dhash_max": 8,
+    "strict_rgb_mae_max": 0.04,
+    "strict_centre_mae_max": 0.06
+  },
+  "split_method": "1000 seed-42 grouped candidate allocations; minimum squared relative deviation from per-class 70/15/15 targets; no model information",
+  "class_counts": {
+    "train": {
+      "Healthy": 1425,
+      "DryRot-Mild": 185,
+      "DryRot-Moderate": 789,
+      "DryRot-Severe": 2307
+    },
+    "validation": {
+      "Healthy": 56,
+      "DryRot-Mild": 51,
+      "DryRot-Moderate": 173,
+      "DryRot-Severe": 480
+    },
+    "test": {
+      "Healthy": 190,
+      "DryRot-Mild": 41,
+      "DryRot-Moderate": 165,
+      "DryRot-Severe": 467
+    }
+  },
+  "training_class_weights": [
+    0.8256140350877192,
+    6.359459459459459,
+    1.491128010139417,
+    0.5099696575639359
+  ],
+  "uncorroborated_perceptual_candidates_cross_split": 608
+}

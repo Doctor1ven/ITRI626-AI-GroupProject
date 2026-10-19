@@ -1,0 +1,26 @@
+[
+  {
+    "file": "potato_dataset_class_counts.csv",
+    "bytes": 1117,
+    "sha256": "ecf68d9621e7c01e5dc1e5b75fde5dd191bf87959833c822651da1a92e8ff57d",
+    "publisher_hash_matches": true
+  },
+  {
+    "file": "potato_desease_dataset.zip",
+    "bytes": 540742370,
+    "sha256": "0d6ff2f249993a404d3b533b0247063e0f442e0c6267c24b23d7463645492662",
+    "publisher_hash_matches": true
+  },
+  {
+    "file": "README.md",
+    "bytes": 6506,
+    "sha256": "08f459932679dc92261b066e0362903d99b7236ec631b009f3a62853a14e3a79",
+    "publisher_hash_matches": true
+  },
+  {
+    "file": "resize_manifest.csv",
+    "bytes": 572,
+    "sha256": "396d559f50ce32ac53ae0b9d983ae2f91ee7157ce3124ba10af83faaf0e465bb",
+    "publisher_hash_matches": true
+  }
+]

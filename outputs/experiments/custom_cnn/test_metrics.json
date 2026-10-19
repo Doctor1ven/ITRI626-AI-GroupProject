@@ -1,0 +1,66 @@
+{
+  "accuracy": 0.7705677867902665,
+  "precision_macro": 0.622841322234979,
+  "recall_macro": 0.581455358937471,
+  "macro_f1": 0.5917028616074853,
+  "weighted_f1": 0.7675683445948791,
+  "confusion_matrix": [
+    [
+      152,
+      4,
+      30,
+      4
+    ],
+    [
+      0,
+      3,
+      33,
+      5
+    ],
+    [
+      0,
+      6,
+      92,
+      67
+    ],
+    [
+      0,
+      3,
+      46,
+      418
+    ]
+  ],
+  "per_class": [
+    {
+      "class_name": "Healthy",
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.888888888888889,
+      "support": 190
+    },
+    {
+      "class_name": "DryRot-Mild",
+      "precision": 0.1875,
+      "recall": 0.07317073170731707,
+      "f1": 0.10526315789473682,
+      "support": 41
+    },
+    {
+      "class_name": "DryRot-Moderate",
+      "precision": 0.4577114427860697,
+      "recall": 0.5575757575757576,
+      "f1": 0.5027322404371585,
+      "support": 165
+    },
+    {
+      "class_name": "DryRot-Severe",
+      "precision": 0.8461538461538461,
+      "recall": 0.8950749464668094,
+      "f1": 0.8699271592091571,
+      "support": 467
+    }
+  ],
+  "model": "custom_cnn",
+  "checkpoint_epoch": 19,
+  "checkpoint_validation_macro_f1": 0.5818906940034642
+}
